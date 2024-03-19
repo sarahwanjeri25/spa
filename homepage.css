@@ -1,0 +1,77 @@
+  nav{
+            
+            color: rgba(165, 42, 42, 0.374);
+            font-size: 25px;
+            text-align: right;
+            word-spacing:10rem;
+            margin: 0;
+            padding: 0;
+	        display: flex; 
+	        align-items: center; 
+	        justify-content: space-between; 
+	        position: fixed; 
+	        top: 0; 
+	        width: 100%; 
+	        background-color:rgb(224, 207, 185);
+} 
+
+
+.menu-list .menu-list-items { 
+	padding: 0.5rem 1rem; 
+} 
+
+@media screen and (min-width: 856px) and (max-width: 1024px) { 
+	.menu-list .menu-list-items { 
+		padding: 0.5rem 0.3rem; 
+	} 
+} 
+
+
+.home{
+    font-size: 20px;
+    background-color: burlywood;
+    width: 100%;
+    height: 1024px;
+}
+
+h2{
+    text-align: center;
+    font-size: bold;
+    font-style: italic;
+    padding-top: 100px;
+}
+
+
+h3,h4{
+    padding-left: 20px;
+     text-align: left;
+     font-style: italic;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: rgba(165, 42, 42, 0.374);
+     padding-top: 100px;
+    }
+
+.image{
+    padding-right: 50px;
+    display: block;
+    float:right;
+    opacity: 0.8;
+}
+
+.about{
+
+  width: 100%;
+ height: 60%;
+ font-size: 25px;
+}
+.education{
+    width: 100%;
+    height: 60%;
+    font-size: 25px;
+}
+.contact{
+    width: 100%;
+    height: 60%;
+    font-size: 25px;
+}
+

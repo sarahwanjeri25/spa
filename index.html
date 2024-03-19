@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- cdn = code delivery network -->
+<style>
+    #hidden{
+        display: none;
+    }
+</style>
+
+<p id="hidden">I love this</p>
+
+<script>
+  $(document).ready(function(){
+    $("button").click(function(){
+        $("#hidden").show()
+        $("#txt").hide()
+    })
+  })
+       
+</script>
+
+<p id="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores quasi assumenda rerum, quibusdam expedita provident similique!
+         Doloribus dicta nisi commodi quis aspernatur. Voluptatum quidem voluptate amet fugiat reiciendis aut at.</p>
+
+         <button>Hide</button>
+
+        
+    
+</body>
+</html>
